@@ -2,11 +2,15 @@
   "name": "shopy-back",
   "version": "1.0.0",
   "description": "",
+ 
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
+  "engines": {
+    "node": ">=14 <15"
+  }
   "keywords": [],
   "author": "",
   "license": "ISC",
